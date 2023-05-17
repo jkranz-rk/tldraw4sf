@@ -1,0 +1,5 @@
+<aura:component access="global" implements="flexipage:availableForAllPageTypes" >
+    <div class="container">
+        <lightning:container class="container" src="{!$Resource.build + '/index.html'}"/>
+    </div>
+</aura:component>
